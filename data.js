@@ -31,9 +31,9 @@ let copiedCities= JSON.parse(JSON.stringify(cities));
 
 
   const vehicles = [
-    { type: 'EV Bike', range: 60, count: 2 },
-    { type: 'EV Car', range: 100, count: 1 },
-    { type: 'EV SUV', range: 120, count: 1 }
+    { type: 'EV Bike', range: 60, count: 2, imageURL: "https://cdn.motor1.com/images/mgl/1Zp4pw/s1/the-weel-ev-b-is-a-self-driving-ev-cosplaying-as-an-e-bike.jpg" },
+    { type: 'EV Car', range: 100, count: 1, imageURL: "https://creazilla-store.fra1.digitaloceanspaces.com/vectors/19357/tesla-model-s-vector-sm.jpeg" },
+    { type: 'EV SUV', range: 120, count: 1, imageURL: "https://cdn.dribbble.com/users/1399545/screenshots/14102200/media/c5f0cb5c299ef69d5a8ebbdf7213a613.jpg" }
   ];
 
   let copiedVehicles = JSON.parse(JSON.stringify(vehicles));

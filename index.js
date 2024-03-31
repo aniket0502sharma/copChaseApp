@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 7777;
 
 // Define CORS options
 const corsOptions = {
-  origin: 'http://localhost:3000', // Allow requests only from this origin
+  origin: '*', // Allow requests from any origin, // Allow requests only from this origin
 };
 app.use(cors(corsOptions));
 // Middleware
